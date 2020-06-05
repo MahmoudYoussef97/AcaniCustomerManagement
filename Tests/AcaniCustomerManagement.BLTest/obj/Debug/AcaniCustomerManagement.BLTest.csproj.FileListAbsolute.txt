@@ -1,0 +1,15 @@
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\AcaniCustomerManagement.BLTest.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\AcaniCustomerManagement.BLTest.pdb
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\AcaniCustomerManagement.BL.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\AcaniCustomerManagement.BL.pdb
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\AcaniCustomerManagement.BLTest.csprojAssemblyReference.cache
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\AcaniCustomerManagement.BLTest.csproj.CopyComplete
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\AcaniCustomerManagement.BLTest.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\AcaniCustomerManagement.BLTest.pdb
