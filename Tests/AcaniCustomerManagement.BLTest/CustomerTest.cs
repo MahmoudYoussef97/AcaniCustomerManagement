@@ -64,5 +64,40 @@ namespace AcaniCustomerManagement.BLTest
             //-- Assert\
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void ValidateValid()
+        {
+            //-- Arange
+            var customer = new Customer()
+            {
+                FirstName = "Mahmoud",
+                EmailAddress = "Mahmoud@gmail.com"
+            };
+            
+            var expected = true;
+
+            //-- Act
+            var actual = customer.Validate();
+
+            //-- Assert
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod]
+        public void ValidateMissingEmailAddress()
+        {
+            //-- Arrange
+            var customer = new Customer()
+            {
+                FirstName = "Mahmoud",
+            };
+            
+            var expected = false;
+
+            //- Act
+            var actual = customer.Validate();
+
+            //-- Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
