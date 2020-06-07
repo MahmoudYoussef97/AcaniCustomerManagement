@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AcaniCustomerManagement.BL
 {
-    class Address
+    public class Address
     {
         public Address()
         {

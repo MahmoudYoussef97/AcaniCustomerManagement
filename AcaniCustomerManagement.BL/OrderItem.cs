@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AcaniCustomerManagement.BL
 {
-    class OrderItem
+    public class OrderItem
     {
         public OrderItem()
         {
