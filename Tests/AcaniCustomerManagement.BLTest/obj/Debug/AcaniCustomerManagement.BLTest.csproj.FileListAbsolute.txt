@@ -13,3 +13,5 @@ D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\
 D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\AcaniCustomerManagement.BLTest.csproj.CopyComplete
 D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\AcaniCustomerManagement.BLTest.dll
 D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\obj\Debug\AcaniCustomerManagement.BLTest.pdb
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Acani.Common.dll
+D:\repos\AcaniCustomerManagement\Tests\AcaniCustomerManagement.BLTest\bin\Debug\Acani.Common.pdb

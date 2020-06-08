@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AcaniCustomerManagement.BL
 {
-    public class OrderItem
+    public class OrderItem : EntityBase
     {
         public OrderItem()
         {
@@ -26,7 +26,7 @@ namespace AcaniCustomerManagement.BL
         {
             return true;
         }
-        public bool Validate()
+        protected override bool Validate()
         {
             var isValid = true;
 

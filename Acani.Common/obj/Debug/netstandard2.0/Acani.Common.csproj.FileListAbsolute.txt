@@ -1,0 +1,8 @@
+D:\repos\AcaniCustomerManagement\Acani.Common\bin\Debug\netstandard2.0\Acani.Common.deps.json
+D:\repos\AcaniCustomerManagement\Acani.Common\bin\Debug\netstandard2.0\Acani.Common.dll
+D:\repos\AcaniCustomerManagement\Acani.Common\bin\Debug\netstandard2.0\Acani.Common.pdb
+D:\repos\AcaniCustomerManagement\Acani.Common\obj\Debug\netstandard2.0\Acani.Common.csprojAssemblyReference.cache
+D:\repos\AcaniCustomerManagement\Acani.Common\obj\Debug\netstandard2.0\Acani.Common.AssemblyInfoInputs.cache
+D:\repos\AcaniCustomerManagement\Acani.Common\obj\Debug\netstandard2.0\Acani.Common.AssemblyInfo.cs
+D:\repos\AcaniCustomerManagement\Acani.Common\obj\Debug\netstandard2.0\Acani.Common.dll
+D:\repos\AcaniCustomerManagement\Acani.Common\obj\Debug\netstandard2.0\Acani.Common.pdb

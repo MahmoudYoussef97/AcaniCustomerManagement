@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Acani.Common;
+using System;
 using System.Collections.Generic;
 
 namespace AcaniCustomerManagement.BL
 {
-    public class Customer
+    public class Customer : EntityBase, ILoggable
     {
         public Customer() : this(0)
         {
@@ -38,8 +39,8 @@ namespace AcaniCustomerManagement.BL
             }
         }
         public static int InstanceCount { get; set; }
-
-        public bool Validate()
+        public override string ToString() => FullName;
+        protected override bool Validate()
         {
             bool isValid = true;
             if (string.IsNullOrWhiteSpace(FirstName)) isValid = false;
@@ -47,5 +48,7 @@ namespace AcaniCustomerManagement.BL
 
             return isValid;
         }
+        public string Log() =>
+            $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
     }
 }

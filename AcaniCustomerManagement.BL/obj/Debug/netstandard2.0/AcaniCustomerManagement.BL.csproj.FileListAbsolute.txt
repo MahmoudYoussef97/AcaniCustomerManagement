@@ -6,3 +6,6 @@ D:\repos\AcaniCustomerManagement\AcaniCustomerManagement.BL\obj\Debug\netstandar
 D:\repos\AcaniCustomerManagement\AcaniCustomerManagement.BL\obj\Debug\netstandard2.0\AcaniCustomerManagement.BL.AssemblyInfo.cs
 D:\repos\AcaniCustomerManagement\AcaniCustomerManagement.BL\obj\Debug\netstandard2.0\AcaniCustomerManagement.BL.dll
 D:\repos\AcaniCustomerManagement\AcaniCustomerManagement.BL\obj\Debug\netstandard2.0\AcaniCustomerManagement.BL.pdb
+D:\repos\AcaniCustomerManagement\AcaniCustomerManagement.BL\bin\Debug\netstandard2.0\Acani.Common.dll
+D:\repos\AcaniCustomerManagement\AcaniCustomerManagement.BL\bin\Debug\netstandard2.0\Acani.Common.pdb
+D:\repos\AcaniCustomerManagement\AcaniCustomerManagement.BL\obj\Debug\netstandard2.0\AcaniCustomerManagement.BL.csproj.CopyComplete

@@ -1,14 +1,14 @@
-﻿using System;
+﻿using Acani.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AcaniCustomerManagement.BL
 {
-    public class Product
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
-
         }
         public Product(int productId)
         {
@@ -17,8 +17,17 @@ namespace AcaniCustomerManagement.BL
         public int ProductId { get; private set; }
         public decimal? CurrentPrice { get; set; }
         public string ProductDescription { get; set; }
-        public string ProductName { get; set; }
-        public bool Validate()
+        private string _productName;
+        public string ProductName
+        {
+            get 
+            {   
+                return _productName.InsertSpaces(); 
+            }
+            set { _productName = value; }
+        }
+        public override string ToString() => ProductName;
+        protected override bool Validate()
         {
             var isValid = true;
 
@@ -27,5 +36,7 @@ namespace AcaniCustomerManagement.BL
 
             return isValid;
         }
+        public string Log() =>
+            $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
     }
 }

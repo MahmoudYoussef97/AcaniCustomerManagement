@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Acani.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace AcaniCustomerManagement.BL
 {
-    public class Order
+    public class Order : EntityBase, ILoggable
     {
         public Order(): this(0)
         {
@@ -20,7 +21,11 @@ namespace AcaniCustomerManagement.BL
         public List<OrderItem> OrderItems { get; set; }
         public int OrderId { get; private set; }
         public DateTimeOffset? OrderDate { get; set; }
-        public bool Validate()
+
+        public string Log() => $"{OrderId}: Date: {OrderDate.Value.Date} Status: {EntityState.ToString()}";
+
+        public override string ToString() => $"{OrderDate.Value.Date} ({OrderId})";
+        protected override bool Validate()
         {
             var isValid = true;
 

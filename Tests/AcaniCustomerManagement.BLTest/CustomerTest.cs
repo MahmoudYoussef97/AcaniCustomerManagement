@@ -77,7 +77,7 @@ namespace AcaniCustomerManagement.BLTest
             var expected = true;
 
             //-- Act
-            var actual = customer.Validate();
+            var actual = customer.IsValid;
 
             //-- Assert
             Assert.AreEqual(expected, actual);
@@ -94,7 +94,7 @@ namespace AcaniCustomerManagement.BLTest
             var expected = false;
 
             //- Act
-            var actual = customer.Validate();
+            var actual = customer.IsValid;
 
             //-- Assert
             Assert.AreEqual(expected, actual);

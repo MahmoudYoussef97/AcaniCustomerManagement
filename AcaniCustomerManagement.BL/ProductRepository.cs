@@ -18,10 +18,29 @@ namespace AcaniCustomerManagement.BL
             }
             return product;
         }
-
         public bool Save(Product product)
         {
-            return true;
+            var success = true;
+
+            if(product.HasChanged)
+            {
+                if(product.IsValid)
+                {
+                    if(product.IsNew)
+                    {
+                        // Insert
+                    }
+                    else
+                    {
+                        // Update
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+            return success;
         }
     }
 }
